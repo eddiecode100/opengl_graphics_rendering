@@ -3,8 +3,8 @@
 #include <vector>
 #include <string>
 #include <list>
+#include <GL/glew.h>
 #include <GLFW/glfw3.h>
-
 
         void Cube::printVertices() const {
             std::cout << "not implemented yet" << '\n';

@@ -10,13 +10,16 @@ set(OpenGL_GL_PREFERENCE "GLVND")
 
 find_package(OpenGL REQUIRED)
 
+find_package(GLEW REQUIRED)
+
 find_package(glfw3 3.3 REQUIRED)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include ${GLEW_INCLUDE_DIRS})
 
 add_executable(my_opengl_project
     src/main.cpp
     src/cube.cpp
 )
 
-target_link_libraries(my_opengl_project PRIVATE OpenGL::GL glfw)
+target_link_libraries(my_opengl_project PRIVATE OpenGL::GL glfw GLEW::GLEW)
