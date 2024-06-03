@@ -13,7 +13,6 @@ This is a simple OpenGL project demonstrating how to render various shapes using
     ```bash
     git clone https://github.com/eddiecode100/opengl_graphics_rendering.git
     ```
-    Replace `https://github.com/eddiecode100/opengl_graphics_rendering.git` with the actual URL of your project's Git repository (if applicable).
 3. **Build the Project:**
    The build process might vary depending on your system and development environment. Here's a general guideline:
     * Navigate to the project directory.
