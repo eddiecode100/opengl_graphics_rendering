@@ -1,7 +1,7 @@
 CMakeFiles/my_opengl_project.dir/src/cube.cpp.o: \
  /home/eddie/Programming/C++/Programs/opengl_graphics_rendering/src/cube.cpp \
  /usr/include/stdc-predef.h \
- /home/eddie/Programming/C++/Programs/opengl_graphics_rendering/src/cube.h \
+ /home/eddie/Programming/C++/Programs/opengl_graphics_rendering/include/cube.h \
  /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -131,8 +131,9 @@ CMakeFiles/my_opengl_project.dir/src/cube.cpp.o: \
  /usr/include/c++/14/bits/stl_list.h \
  /usr/include/c++/14/bits/allocated_ptr.h \
  /usr/include/c++/14/ext/aligned_buffer.h \
- /usr/include/c++/14/bits/list.tcc /usr/include/GLFW/glfw3.h \
+ /usr/include/c++/14/bits/list.tcc /usr/include/GL/glew.h \
+ /usr/include/c++/14/cstddef /usr/include/c++/14/cstdint \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h
+ /usr/include/bits/stdint-least.h /usr/include/GL/glu.h \
+ /usr/include/GL/gl.h /usr/include/GLFW/glfw3.h

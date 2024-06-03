@@ -109,6 +109,7 @@ my_opengl_project: CMakeFiles/my_opengl_project.dir/src/main.cpp.o
 my_opengl_project: CMakeFiles/my_opengl_project.dir/src/cube.cpp.o
 my_opengl_project: CMakeFiles/my_opengl_project.dir/build.make
 my_opengl_project: /usr/lib64/libglfw.so.3.3
+my_opengl_project: /usr/lib64/libGLEW.so
 my_opengl_project: /usr/lib64/libGLX.so
 my_opengl_project: /usr/lib64/libOpenGL.so
 my_opengl_project: CMakeFiles/my_opengl_project.dir/link.txt

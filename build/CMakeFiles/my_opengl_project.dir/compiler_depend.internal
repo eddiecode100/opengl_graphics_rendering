@@ -3,11 +3,11 @@
 
 CMakeFiles/my_opengl_project.dir/src/cube.cpp.o
  /home/eddie/Programming/C++/Programs/opengl_graphics_rendering/src/cube.cpp
- /home/eddie/Programming/C++/Programs/opengl_graphics_rendering/src/cube.h
+ /home/eddie/Programming/C++/Programs/opengl_graphics_rendering/include/cube.h
  /usr/include/GL/gl.h
- /usr/include/GL/glext.h
+ /usr/include/GL/glew.h
+ /usr/include/GL/glu.h
  /usr/include/GLFW/glfw3.h
- /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -135,6 +135,8 @@ CMakeFiles/my_opengl_project.dir/src/cube.cpp.o
  /usr/include/c++/14/cctype
  /usr/include/c++/14/cerrno
  /usr/include/c++/14/clocale
+ /usr/include/c++/14/cstddef
+ /usr/include/c++/14/cstdint
  /usr/include/c++/14/cstdio
  /usr/include/c++/14/cstdlib
  /usr/include/c++/14/cwchar
@@ -203,9 +205,9 @@ CMakeFiles/my_opengl_project.dir/src/cube.cpp.o
 CMakeFiles/my_opengl_project.dir/src/main.cpp.o
  /home/eddie/Programming/C++/Programs/opengl_graphics_rendering/src/main.cpp
  /usr/include/GL/gl.h
- /usr/include/GL/glext.h
+ /usr/include/GL/glew.h
+ /usr/include/GL/glu.h
  /usr/include/GLFW/glfw3.h
- /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -333,6 +335,8 @@ CMakeFiles/my_opengl_project.dir/src/main.cpp.o
  /usr/include/c++/14/cctype
  /usr/include/c++/14/cerrno
  /usr/include/c++/14/clocale
+ /usr/include/c++/14/cstddef
+ /usr/include/c++/14/cstdint
  /usr/include/c++/14/cstdio
  /usr/include/c++/14/cstdlib
  /usr/include/c++/14/cwchar
