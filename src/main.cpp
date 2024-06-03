@@ -19,13 +19,6 @@ int main(void)
     if (!glfwInit())
         return -1;
 
-    /* Initalize GLEW */ 
-    glewExperimental = GL_TRUE; // Enable modern OpenGL features.
-    GLenum err = glewInit();
-
-    if (err != GLEW_OK)
-        std::cout << RED << "ERROR: " << RESET << "Failed to initalize GLEW: " << glewGetErrorString(err) << '\n';
-
 
     /* Create a windowed mode window and its OpenGL context */
     window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
@@ -37,6 +30,15 @@ int main(void)
 
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
+
+
+    /* Initalize GLEW */ 
+    glewExperimental = GL_TRUE; // Enable modern OpenGL features.
+    GLenum err = glewInit();
+
+    if (err != GLEW_OK)
+        std::cout << RED << "ERROR: " << RESET << "Failed to initalize GLEW: " << glewGetErrorString(err) << '\n';
+
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
